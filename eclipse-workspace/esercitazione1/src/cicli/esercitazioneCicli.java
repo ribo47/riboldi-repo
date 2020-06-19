@@ -7,10 +7,10 @@ public class esercitazioneCicli {
 	public static void main (String[] args)
 	{
 		System.out.println("-------------------------1) Tutti i numeri inseriti sono pari -------------------"); 
-		//esLoop1();
+		esLoop1();
 		
 		System.out.println("-------------------------2) Calcolo media dei multipli di 3 ---------------------"); 
-		//esLoop2();
+		esLoop2();
 		
 		System.out.println("-------------------------3) 5 cicli di input/output ---------------------"); 
 		esLoop3();
@@ -36,6 +36,8 @@ public class esercitazioneCicli {
 			i2=0;	
 		}
 		System.out.println("Inserimento terminato"); 
+		scanner.close();
+
 	}
 
 	private static void esLoop2() {
@@ -54,7 +56,7 @@ public class esercitazioneCicli {
 		
 		
 		System.out.println("Media: "+(media/i)); 
-
+		scanner.close();
 	}
 
 	private static void esLoop1() {
@@ -71,6 +73,7 @@ public class esercitazioneCicli {
 			System.out.println("Tutti i numeri inseriti sono pari"); 
 		else
 			System.out.println("Hai inserito un numero dispari"); 
+		scanner.close();
 
 
 		
