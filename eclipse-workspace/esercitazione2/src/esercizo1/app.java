@@ -23,19 +23,19 @@ public class app {
 				arrayPersona[i]= new Stagista();
 				
 				System.out.println("Inserisci i dati della persona:\nNome:");
-				n = scanner.nextLine();
+				n = scanner.next();
 				arrayPersona[i].setName(n);
 
 				System.out.println("Cognome:");
-				s = scanner.nextLine();
+				s = scanner.next();
 				arrayPersona[i].setSurname(s);
 
 				System.out.println("Città:");
-				c = scanner.nextLine();
+				c = scanner.next();
 				arrayPersona[i].setCity(c);
 
 				System.out.println("Codice fiscale:");
-				tc = scanner.nextLine();
+				tc = scanner.next();
 				arrayPersona[i].setTaxCode(tc);
 				
 				System.out.println("Numero ore:");
